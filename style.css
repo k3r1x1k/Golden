@@ -1,0 +1,20 @@
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "RobotoSlab", sans-serif;
+  --header-text-color: #FED136;
+  --main-text-color: #222222;
+  --second-text-color: #777777;
+  --placeholder-text-color: #BBBBBB;
+  --main-bc-color: #FFFFFF;
+}
+
+body{
+    font-family: var(--font-family);
+    background-color: var(--main-bc-color);
+    color: var(--main-text-color);
+}
+
+.container{
+    margin: 0px auto;
+    padding: 0px 247px;
+}
