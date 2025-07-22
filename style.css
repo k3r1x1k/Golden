@@ -8,13 +8,63 @@
   --main-bc-color: #FFFFFF;
 }
 
-body{
-    font-family: var(--font-family);
-    background-color: var(--main-bc-color);
-    color: var(--main-text-color);
+body {
+  font-family: var(--font-family);
+  background-color: var(--main-bc-color);
+  color: var(--main-text-color);
 }
 
-.container{
-    margin: 0px auto;
-    padding: 0px 247px;
+.container {
+  width: 960px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  outline: 1px solid red;
+}
+
+header{
+  padding-top: 44px;
+  padding-bottom: 108px;
+}
+
+.header-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list{
+  display: flex;
+  gap: 10px;
+}
+
+.header-item{
+font-weight: 400;
+font-size: 14px;
+line-height: 293%;
+text-transform: uppercase;
+text-align: center;
+padding: 0 16px;
+}
+
+.header-item a{
+  color: var(--header-text-color);
+}
+
+.services{
+  padding-bottom: 118px;
+}
+
+.services-title{
+font-weight: 700;
+font-size: 40px;
+line-height: 187%;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+text-align: center;
+color: #222;
+}
+
+.contact-us{
+  padding-top: 92px;
+  padding-bottom: 116px;
 }
